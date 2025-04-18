@@ -29,3 +29,27 @@ HETATM 5064  C12 LIG A 609       4.399  28.541 -20.018  1.00 91.22           C
 HETATM 5065 CL1  LIG A 609       5.384  31.769 -22.179  1.00 93.06          CL  
 TER    5066      LIG A 609                                                       
 END
+OUT_cyclo: dans ce fichier nous avons les résultats de Alphafold Dhfr_cyclo (avec les même spécificité que le fichier OUT_Pyr)
+> pour les différents modél obtenue avec alphafold on a calculé le RMS entre les différents model :
+> pour DHFR_PYR:
+MODEL0/MODEL1
+Executive: RMSD =    0.113 (486 to 486 atoms)
+MODEL0/MODEL2
+RMSD =    0.104 (463 to 463 atoms)
+MODEL0/MODEL3
+RMSD =    0.090 (470 to 470 atoms)
+MODEL0/MODEL4
+RMSD =    0.128 (469 to 469 atoms)
+MODEL1/MODEL2
+RMSD =    0.123 (494 to 494 atoms)
+MODEL1/MODEL3
+RMSD =    0.100 (489 to 489 atoms)
+MODEL1/MODEL4
+RMSD =    0.138 (491 to 491 atoms)
+MODEL2/MODEL3
+ RMSD =    0.092 (474 to 474 atoms)
+MODEL2/MODEL4
+RMSD =    0.128 (473 to 473 atoms)
+MODEL3/MODEL4
+RMSD =    0.141 (483 to 483 atoms)
+> Pour DHFR_cyclo
