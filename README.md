@@ -31,7 +31,7 @@ TER    5066      LIG A 609
 END
 OUT_cyclo: dans ce fichier nous avons les résultats de Alphafold Dhfr_cyclo (avec les même spécificité que le fichier OUT_Pyr)
 > pour les différents modél obtenue avec alphafold on a calculé le RMS entre les différents model :
-> pour DHFR_PYR:
+> pour DHFR_PYR: le Model4 est le model proposer par AlphaFold
 MODEL0/MODEL1
 Executive: RMSD =    0.113 (486 to 486 atoms)
 MODEL0/MODEL2
@@ -52,4 +52,25 @@ MODEL2/MODEL4
 RMSD =    0.128 (473 to 473 atoms)
 MODEL3/MODEL4
 RMSD =    0.141 (483 to 483 atoms)
-> Pour DHFR_cyclo
+> Pour DHFR_cyclo : le Model4 est le model proposer par AlphaFold
+MODEL0/MODEL1
+RMSD =    0.111 (482 to 482 atoms)
+MODEL0/MODEL2
+RMSD =    0.105 (464 to 464 atoms)
+MODEL0/MODEL3
+ RMSD =    0.090 (469 to 469 atoms)
+MODEL0/MODEL4
+RMSD =    0.129 (471 to 471 atoms)
+MODEL1/MODEL2
+RMSD =    0.123 (494 to 494 atoms)
+MODEL1/MODEL3
+ RMSD =    0.100 (489 to 489 atoms)
+MODEL1/MODEL4
+RMSD =    0.137 (490 to 490 atoms)
+MODEL2/MODEL3
+RMSD =    0.091 (472 to 472 atoms)
+MODEL2/MODEL4
+ RMSD =    0.131 (476 to 476 atoms)
+MODEL3/MODEL4
+RMSD =    0.143 (486 to 486 atoms)
+
