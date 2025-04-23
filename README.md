@@ -1,5 +1,5 @@
 # PlasmodiumMuSiC
-OUt_pyr: dans ce fichier nous avons les différents sorti de AlphaFold Dhfr-pyrimethamine 
+OUt_pyr: dans ce dossier nous avons les différents sorti de AlphaFold Dhfr-pyrimethamine 
 c'est différents fichier on été modifier par des scripte afin d'obttenir le format Prempli ( avoir un Header et un format du liG spécifique voir ci dessous)
 Header :
 HET    LIG  A  609
@@ -29,7 +29,7 @@ HETATM 5064  C12 LIG A 609       4.399  28.541 -20.018  1.00 91.22           C
 HETATM 5065 CL1  LIG A 609       5.384  31.769 -22.179  1.00 93.06          CL  
 TER    5066      LIG A 609                                                       
 END
-OUT_cyclo: dans ce fichier nous avons les résultats de Alphafold Dhfr_cyclo (avec les même spécificité que le fichier OUT_Pyr)
+OUT_cyclo: dans ce dossier nous avons les résultats de Alphafold Dhfr_cyclo (avec les même spécificité que le fichier OUT_Pyr)
 > pour les différents modél obtenue avec alphafold on a calculé le RMS entre les différents model :
 > pour DHFR_PYR: le Model4 est le model proposer par AlphaFold
 MODEL0/MODEL1
